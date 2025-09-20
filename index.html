@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>しゃま - フリーランスエンジニア</title>
+  <meta name="description" content="しゃま - フリーランスエンジニアのプロフィールサイト。クラウド、インフラ、Pythonなどのスキルを持つエンジニアです。">
+  
+  <!-- フォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="header-container container">
+      <div class="logo">しゃま</div>
+      <button class="mobile-menu-btn" aria-label="メニュー">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">ホーム</a></li>
+          <li><a href="#about">プロフィール</a></li>
+          <li><a href="#skills">スキル</a></li>
+          <li><a href="#certifications">資格</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="テーマ切替">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- メインビジュアル -->
+  <section id="home" class="hero fade-in">
+    <div class="container">
+      <img src="images/profile.jpg" alt="しゃまのプロフィール画像" class="profile-img">
+      <div class="hero-text">
+        <h1 class="hero-name">しゃま</h1>
+        <p class="hero-tagline">フリーランスエンジニア | クラウド・インフラ・Python</p>
+        <div class="social-links">
+          <a href="https://note.com/syam_grit" target="_blank" aria-label="Note"><i class="fas fa-book"></i></a>
+          <a href="https://zenn.dev/gritio28tech" target="_blank" aria-label="Zenn"><i class="fas fa-code"></i></a>
+          <a href="https://github.com/SyamGRITio" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/syam_nihick" target="_blank" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- プロフィール -->
+  <section id="about" class="container fade-in delay-1">
+    <h2 class="section-title">プロフィール</h2>
+    <div class="about">
+      <div class="bio">
+        <p>旅行業界での経験を活かし、2021年にITエンジニアへとキャリアチェンジ。エンジニア無料スクールでの学習を経て、SES企業でのキャリアを積み、2025年からフリーランスエンジニアとして活動を開始。</p>
+        <p>クラウド環境（Azure、AWS）の構築・運用、インフラ管理、Pythonを用いたバックエンド開発など、幅広いスキルを持ち、特にRAG基盤の開発に強みを持っています。常に新しい技術に挑戦し、効率的なシステム構築を目指しています。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- スキル -->
+  <section id="skills" class="container fade-in delay-2">
+    <h2 class="section-title">スキルセット</h2>
+    <div class="skills-container">
+      <div class="skill-item">
+        <div class="skill-name">クラウド</div>
+        <p>Azure、AWS環境の設計・構築・運用、クラウドリソース最適化</p>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">インフラ</div>
+        <p>Windows Server、Active Directory、M365管理、IaC（Infrastructure as Code）</p>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">開発</div>
+        <p>Python（FastAPI）、RAG基盤開発、バックエンド開発</p>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">セキュリティ</div>
+        <p>クラウドセキュリティ設計、ネットワークセキュリティ</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 資格 -->
+  <section id="certifications" class="container fade-in delay-3">
+    <h2 class="section-title">所有資格</h2>
+    <div class="certifications-container">
+      <div class="cert-category">
+        <h3>Microsoft認定資格</h3>
+        <ul class="cert-list">
+          <li>AZ-900: Microsoft Azure Fundamentals</li>
+          <li>MS-900: Microsoft 365 Fundamentals</li>
+          <li>AZ-500: Microsoft Azure Security Technologies</li>
+          <li>AZ-700: Designing and Implementing Microsoft Azure Networking Solutions</li>
+          <li>AZ-104: Microsoft Azure Administrator</li>
+          <li>AZ-204: Developing Solutions for Microsoft Azure</li>
+          <li>AZ-400: Designing and Implementing Microsoft DevOps Solutions</li>
+          <li>AZ-305: Designing Microsoft Azure Infrastructure Solutions</li>
+          <li>AI-102: Designing and Implementing a Microsoft Azure AI Solution</li>
+          <li>AI-900: Microsoft Azure AI Fundamentals</li>
+        </ul>
+      </div>
+      <div class="cert-category">
+        <h3>AWS認定資格</h3>
+        <ul class="cert-list">
+          <li>AWS Certified Cloud Practitioner (CLF)</li>
+          <li>AWS Certified Solutions Architect - Associate (SAA)</li>
+          <li>AWS Certified Developer - Associate (DVA)</li>
+          <li>AWS Certified SysOps Administrator - Associate (SOA)</li>
+          <li>AWS Certified DevOps Engineer - Professional (DOP)</li>
+          <li>AWS Certified Solutions Architect - Professional (SAP)</li>
+          <li>AWS Certified Advanced Networking - Specialty (ANS)</li>
+          <li>AWS Certified Security - Specialty (ACS)</li>
+          <li>AWS Certified Database - Specialty (DBS)</li>
+          <li>AWS Certified Data Analytics - Specialty (DAS)</li>
+          <li>AWS Certified Machine Learning - Specialty (MLS)</li>
+          <li>AWS Certified SAP on AWS - Specialty (PAS)</li>
+          <li>AWS All Certificate 2024</li>
+        </ul>
+      </div>
+      <div class="cert-category">
+        <h3>その他の資格</h3>
+        <ul class="cert-list">
+          <li>JP1認定エンジニア(V12)</li>
+          <li>IPA-セキュリティマネジメント試験</li>
+          <li>CCNA</li>
+          <li>G検定</li>
+          <li>Python3エンジニア認定資格</li>
+          <li>LPIC1</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://note.com/syam_grit" target="_blank" aria-label="Note"><i class="fas fa-book"></i></a>
+          <a href="https://zenn.dev/gritio28tech" target="_blank" aria-label="Zenn"><i class="fas fa-code"></i></a>
+          <a href="https://github.com/SyamGRITio" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/syam_nihick" target="_blank" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+        </div>
+        <p class="copyright">&copy; <span id="current-year"></span> しゃま. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- スクリプト -->
+  <script src="js/main.js"></script>
+</body>
+</html>
