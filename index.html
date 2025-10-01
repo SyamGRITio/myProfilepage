@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>しゃま - フリーランスエンジニア</title>
+  <meta name="description" content="しゃま - フリーランスエンジニアのプロフィールサイト。Azure、AWS、インフラ、SREなどのスキルを持つエンジニアです。">
+  
+  <!-- フォント -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- スタイルシート -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="header-container container">
+      <div class="logo">しゃまのプロフィール</div>
+      <button class="mobile-menu-btn" aria-label="メニュー">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">ホーム</a></li>
+          <li><a href="#about">プロフィール</a></li>
+          <li><a href="#skills">スキル</a></li>
+          <li><a href="#certifications">資格</a></li>
+          <li><a href="portfolio.html">経歴/ポートフォリオ</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="テーマ切替" title="ダークモード/ライトモード切替">
+        <i class="fas fa-moon"></i>
+        <span class="theme-text">ダーク</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- メインビジュアル -->
+  <section id="home" class="hero fade-in">
+    <div class="container">
+      <div class="ai-notice">※このWebサイトはManus AIによって作成しています</div>
+      <img src="images/profile.jpg" alt="しゃまのプロフィール画像" class="profile-img">
+      <div class="hero-text">
+        <h1 class="hero-name">しゃま（修行中）</h1>
+        <p class="hero-tagline">フリーランスエンジニア | Azure・AWS・インフラ・SRE</p>
+        <p class="hobby-text">趣味は非日常と癒しを感じること。<br>最近は観葉植物（主にビカクシダ）とサウナとギターに取りつかれています。</p>
+        <div class="social-links">
+          <a href="https://note.com/syam_grit" target="_blank" aria-label="Note"><i class="fas fa-book"></i><span class="service-name">Note</span></a>
+          <a href="https://zenn.dev/gritio28tech" target="_blank" aria-label="Zenn"><i class="fas fa-code"></i><span class="service-name">Zenn</span></a>
+          <a href="https://github.com/SyamGRITio" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i><span class="service-name">GitHub</span></a>
+          <a href="https://x.com/syam_nihick" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i><span class="service-name">Twitter</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- プロフィール -->
+  <section id="about" class="container fade-in delay-1">
+    <h2 class="section-title">プロフィール</h2>
+    <div class="about">
+      <div class="bio">
+        <p>登録販売者として薬局で勤務した後、2019〜2022年春にかけて個人で旅行代理店を運営。コロナ禍で業界が衰退したことをきっかけに、自社ページ制作を通じてIT分野に興味を持ちました。</p>
+        <p>2022年春〜夏に <a href="https://learn.geekjob.jp/" target="_blank">GEEK JOBスピード転職コース（Java / インフラ）</a>  に参加し、同年秋にSES企業へ入社。システム運用やインフラ構築の経験を積み、2025年よりフリーランスエンジニアとして活動を開始しました。</p>
+        <p>クラウド環境（Azure・AWS）の構築・運用、インフラ管理、リソース構成のリファクタリング、CI/CDパイプライン構築、IaC、シングルページアプリ開発など幅広いスキルを有し、特にクラウド環境での設計・構築を得意としています。</p>
+        <p>一流のSREを目指し、常に新しい技術へ挑戦しながら、効率的でスケーラブルかつセキュアなシステム構築に取り組んでいます。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- スキル -->
+  <section id="skills" class="container fade-in delay-2">
+    <h2 class="section-title">スキルセット</h2>
+    <div class="skills-container">
+      <div class="skill-item">
+        <div class="skill-name">クラウド</div>
+        <p>Azure・AWS 環境の設計・構築・運用、IaC（Infrastructure as Code）、CI/CD、リソース最適化、構成リファクタリング対応、サードパーティーツール連携</p>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">インフラ</div>
+        <p>サーバ運用・監視、Active Directory、DNS サーバ、Microsoft Entra ID Connect、プロキシサーバ（Squid・Nginx）、ファイルサーバ移行、バッチ作成</p>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">開発</div>
+        <p>※開発案件経験は限定的<br>RAG基盤構築（開発環境構築支援）、シングルページWeb開発、バックエンド開発支援・リファクタリング対応、Go・Python学習中</p>
+      </div>
+      <div class="skill-item">
+        <div class="skill-name">セキュリティ</div>
+        <p>CASB 導入・運用経験、CrowdStrike によるエンドポイント防御、Prisma Cloud を用いたクラウドワークロード保護、MFA 設計・実装、ベストプラクティスに基づくセキュリティアーキテクチャ設計、クラウド／ネットワークセキュリティ設計</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 資格 -->
+  <section id="certifications" class="container fade-in delay-3">
+    <h2 class="section-title">所有資格</h2>
+    <div class="certifications-container">
+      <div class="cert-category">
+        <h3>Microsoft認定資格</h3>
+        <ul class="cert-list">
+          <li>AZ-900: Microsoft Azure Fundamentals</li>
+          <li>MS-900: Microsoft 365 Fundamentals</li>
+          <li>AZ-500: Microsoft Azure Security Technologies</li>
+          <li>AZ-700: Designing and Implementing Microsoft Azure Networking Solutions</li>
+          <li>AZ-104: Microsoft Azure Administrator</li>
+          <li>AZ-204: Developing Solutions for Microsoft Azure</li>
+          <li>AZ-400: Designing and Implementing Microsoft DevOps Solutions</li>
+          <li>AZ-305: Designing Microsoft Azure Infrastructure Solutions</li>
+          <li>AI-102: Designing and Implementing a Microsoft Azure AI Solution</li>
+          <li>AI-900: Microsoft Azure AI Fundamentals</li>
+        </ul>
+      </div>
+      <div class="cert-category">
+        <h3>AWS認定資格</h3>
+        <ul class="cert-list">
+          <li>AWS Certified Cloud Practitioner (CLF)</li>
+          <li>AWS Certified Solutions Architect - Associate (SAA)</li>
+          <li>AWS Certified Developer - Associate (DVA)</li>
+          <li>AWS Certified SysOps Administrator - Associate (SOA)</li>
+          <li>AWS Certified DevOps Engineer - Professional (DOP)</li>
+          <li>AWS Certified Solutions Architect - Professional (SAP)</li>
+          <li>AWS Certified Advanced Networking - Specialty (ANS)</li>
+          <li>AWS Certified Security - Specialty (ACS)</li>
+          <li>AWS Certified Database - Specialty (DBS)</li>
+          <li>AWS Certified Data Analytics - Specialty (DAS)</li>
+          <li>AWS Certified Machine Learning - Specialty (MLS)</li>
+          <li>AWS Certified SAP on AWS - Specialty (PAS)</li>
+          <li>AWS All Certificate 2024</li>
+        </ul>
+      </div>
+      <div class="cert-category">
+        <h3>その他の資格</h3>
+        <ul class="cert-list">
+          <li>JP1認定エンジニア(V12)</li>
+          <li>IPA-セキュリティマネジメント試験</li>
+          <li>Cisco Certified Network Associate（CCNA)</li>
+          <li>JDLA Deep Learning for GENERAL（G検定）</li>
+          <li>Python3エンジニア認定資格</li>
+          <li>Linux Professional Institute LPIC-1</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://note.com/syam_grit" target="_blank" aria-label="Note"><i class="fas fa-book"></i></a>
+          <a href="https://zenn.dev/gritio28tech" target="_blank" aria-label="Zenn"><i class="fas fa-code"></i></a>
+          <a href="https://github.com/SyamGRITio" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/syam_nihick" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p class="copyright">&copy; <span id="current-year"></span> しゃま. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- スクリプト -->
+  <script src="js/main.js"></script>
+</body>
+</html>
